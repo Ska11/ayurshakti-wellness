@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Ayurvedic product line</title>
+  <desc id="desc">Bottles, jars, herbal powders, and tea tins arranged for an Ayurvedic wellness shop.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7f2e7"/>
+      <stop offset="1" stop-color="#dfeee8"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#51352a" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="900" height="520" rx="18" fill="url(#bg)"/>
+  <path d="M0 404c126-31 250-28 372 8 136 41 294 42 528 3v105H0z" fill="#6e4b38"/>
+  <g filter="url(#s)">
+    <rect x="86" y="194" width="130" height="229" rx="20" fill="#335f4d"/>
+    <rect x="107" y="151" width="88" height="60" rx="16" fill="#5a3a30"/>
+    <rect x="72" y="263" width="158" height="82" rx="8" fill="#fff2c5"/>
+    <path d="M119 304h66" stroke="#8a6049" stroke-width="12" stroke-linecap="round"/>
+    <rect x="267" y="120" width="150" height="303" rx="24" fill="#c96d35"/>
+    <rect x="292" y="80" width="100" height="58" rx="16" fill="#664235"/>
+    <rect x="252" y="224" width="180" height="91" rx="8" fill="#fff2c5"/>
+    <path d="M308 268h68" stroke="#8a6049" stroke-width="12" stroke-linecap="round"/>
+    <rect x="486" y="204" width="150" height="219" rx="34" fill="#f0ba4e"/>
+    <rect x="504" y="180" width="114" height="52" rx="16" fill="#fff5cf"/>
+    <path d="M524 276h74" stroke="#805740" stroke-width="12" stroke-linecap="round"/>
+    <path d="M530 316h62" stroke="#805740" stroke-width="8" stroke-linecap="round"/>
+    <rect x="688" y="158" width="124" height="265" rx="18" fill="#7b4740"/>
+    <rect x="706" y="117" width="88" height="58" rx="15" fill="#352c2b"/>
+    <rect x="672" y="244" width="156" height="83" rx="8" fill="#fff2c5"/>
+    <path d="M721 286h58" stroke="#8a6049" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <g fill="#447a57">
+    <path d="M152 127c-55-33-85-68-90-106 46 2 80 34 103 96 6 17 1 19-13 10z"/>
+    <path d="M552 132c37-60 79-94 128-102 8 54-21 96-88 126-18 8-50-8-40-24z"/>
+    <path d="M730 93c-15-52-8-94 20-127 34 36 40 79 17 130-7 16-31 14-37-3z"/>
+  </g>
+</svg>

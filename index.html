@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ayurshakti Wellness</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Ayurshakti Wellness home">
+        <span class="brand-mark">AW</span>
+        <span>
+          <strong>Ayurshakti</strong>
+          <small>Wellness</small>
+        </span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#care">Care</a>
+        <a href="#shop">Shop</a>
+        <a href="#journal">Calendar</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-action" href="#book">Book</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Clinical Ayurveda, plant pharmacy, daily rhythm coaching</p>
+          <h1>Ayurshakti Wellness</h1>
+          <p class="lede">Personalized consultations, herbal formulations, and seasonal bodywork for clients who want grounded, long-term care.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#journal">Reserve a consult</a>
+          </div>
+          <dl class="quick-stats" aria-label="Studio highlights">
+            <div>
+              <dt>18</dt>
+              <dd>years of practice</dd>
+            </div>
+            <div>
+              <dt>3</dt>
+              <dd>dosha-led paths</dd>
+            </div>
+            <div>
+              <dt>48h</dt>
+              <dd>care plan delivery</dd>
+            </div>
+          </dl>
+        </div>
+        <aside class="booking-panel" id="book" aria-label="Book a consultation">
+          <div class="panel-topline">
+            <span>Next openings</span>
+            <strong>June 13-18</strong>
+          </div>
+          <h2>Start with a 75-minute intake</h2>
+          <form>
+            <label>
+              Care focus
+              <select>
+                <option>Digestion and energy</option>
+                <option>Stress and sleep</option>
+                <option>Skin and inflammation</option>
+                <option>Seasonal reset</option>
+              </select>
+            </label>
+            <label>
+              Preferred format
+              <select>
+                <option>Virtual consultation</option>
+              </select>
+            </label>
+            <div class="date-grid" aria-label="Available appointment times">
+              <button type="button" class="selected" aria-pressed="true">Sat<br><strong>9:30</strong></button>
+              <button type="button" aria-pressed="false">Mon<br><strong>2:00</strong></button>
+              <button type="button" aria-pressed="false">Wed<br><strong>11:15</strong></button>
+            </div>
+            <button class="button primary wide" type="button" id="holdButton">Hold appointment</button>
+            <p class="booking-note" aria-live="polite"></p>
+          </form>
+        </aside>
+        <img class="hero-art" src="assets/hero-studio.svg" alt="Ayurvedic consultation studio table with herbs and oils">
+      </section>
+
+      <section class="care-strip" aria-label="Care model">
+        <div>
+          <span class="icon">01</span>
+          <h2>Assess</h2>
+          <p>Pulse, tongue, lifestyle, digestion, sleep, and season are reviewed together.</p>
+        </div>
+        <div>
+          <span class="icon">02</span>
+          <h2>Formulate</h2>
+          <p>Custom herbs, oils, food guidance, and daily rhythm are selected for the client.</p>
+        </div>
+        <div>
+          <span class="icon">03</span>
+          <h2>Support</h2>
+          <p>Follow-ups tune the plan as routines, symptoms, and seasons shift.</p>
+        </div>
+      </section>
+
+      <section class="split-section" id="care">
+        <div class="section-copy">
+          <p class="eyebrow">Care menu</p>
+          <h2>Focused services for modern, busy bodies</h2>
+          <p>Each service includes practitioner notes, product recommendations, and a next-step plan that a client can follow without guessing.</p>
+        </div>
+        <div class="service-list">
+          <article>
+            <span>$185</span>
+            <h3>Initial Ayurvedic Consultation</h3>
+            <p>Full intake, prakriti/vikriti review, food map, herbs, and a 30-day care plan.</p>
+          </article>
+          <article>
+            <span>$72</span>
+            <h3>Herbal Refill Session</h3>
+            <p>Short check-in for current clients needing formula adjustments or restocking.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="shop-section" id="shop">
+        <div class="shop-copy">
+          <p class="eyebrow">Apothecary</p>
+          <h2>Small-batch support between visits</h2>
+          <p>Retail items are organized by outcome, not trend: agni, calm, movement, radiance, immunity, and seasonal transitions.</p>
+          <div class="product-tags">
+            <span>Herbal ghee</span>
+            <span>Nasya oil</span>
+            <span>Digestive tea</span>
+            <span>Triphala blends</span>
+          </div>
+        </div>
+        <img src="assets/product-line.svg" alt="Ayurvedic product line with oils, jars, and herbal tins">
+      </section>
+
+      <section class="journal-section" id="journal">
+        <div>
+          <p class="eyebrow">Appointment calendar</p>
+          <h2>Book appointments</h2>
+        </div>
+        <div class="calendar-booking" aria-label="Appointment booking calendar">
+          <div class="calendar-card">
+            <div class="calendar-header">
+              <button type="button" aria-label="Previous month">‹</button>
+              <strong>June 2026</strong>
+              <button type="button" aria-label="Next month">›</button>
+            </div>
+            <div class="calendar-weekdays" aria-hidden="true">
+              <span>Sun</span>
+              <span>Mon</span>
+              <span>Tue</span>
+              <span>Wed</span>
+              <span>Thu</span>
+              <span>Fri</span>
+              <span>Sat</span>
+            </div>
+            <div class="calendar-grid">
+              <span class="muted-day">31</span>
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+              <span>4</span>
+              <span>5</span>
+              <button type="button" class="available">6</button>
+              <span>7</span>
+              <span>8</span>
+              <span>9</span>
+              <button type="button" class="available">10</button>
+              <span>11</span>
+              <span>12</span>
+              <button type="button" class="available selected" aria-pressed="true">13</button>
+              <span>14</span>
+              <button type="button" class="available">15</button>
+              <span>16</span>
+              <button type="button" class="available">17</button>
+              <button type="button" class="available">18</button>
+              <span>19</span>
+              <span>20</span>
+              <span>21</span>
+              <span>22</span>
+              <button type="button" class="available">23</button>
+              <span>24</span>
+              <span>25</span>
+              <span>26</span>
+              <button type="button" class="available">27</button>
+              <span>28</span>
+              <span>29</span>
+              <span>30</span>
+              <span class="muted-day">1</span>
+              <span class="muted-day">2</span>
+              <span class="muted-day">3</span>
+              <span class="muted-day">4</span>
+            </div>
+          </div>
+          <aside class="calendar-summary">
+            <p class="eyebrow">Selected date</p>
+            <h3>Saturday, June 13</h3>
+            <p>Virtual consultations are available at 9:30 AM, 2:00 PM, and 4:15 PM.</p>
+            <a class="button primary" href="#book">Choose appointment time</a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Contact us</p>
+          <h2>Tell us how to reach you</h2>
+          <p>Share your details and the studio team will follow up with appointment options, product questions, or care plan support.</p>
+        </div>
+        <form class="contact-form">
+          <label>
+            Name
+            <input type="text" name="name" autocomplete="name" placeholder="Your name">
+          </label>
+          <label>
+            Email address
+            <input type="email" name="email" autocomplete="email" placeholder="you@example.com">
+          </label>
+          <label>
+            Phone number
+            <input type="tel" name="phone" autocomplete="tel" placeholder="(555) 012-3456">
+          </label>
+          <button class="button primary" type="button">Send contact request</button>
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
