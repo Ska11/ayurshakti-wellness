@@ -17,11 +17,11 @@
       </a>
       <nav aria-label="Primary navigation">
         <a href="#care">Care</a>
-        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
         <a href="#journal">Calendar</a>
         <a href="#contact">Contact</a>
       </nav>
-      <a class="header-action" href="#book">Book</a>
+      <a class="header-action" href="#journal">Book</a>
     </header>
 
     <main id="top">
@@ -30,14 +30,14 @@
           <p class="eyebrow">Clinical Ayurveda, plant pharmacy, daily rhythm coaching</p>
           <h1>Ayurshakti Wellness</h1>
           <p class="lede">Personalized consultations, herbal formulations, and seasonal bodywork for clients who want grounded, long-term care.</p>
+          <figure class="ayurveda-quote">
+            <blockquote>स्वस्थस्य स्वास्थ्य रक्षणम् आतुरस्य विकार प्रशमनम् च ।</blockquote>
+            <figcaption>The purpose of Ayurveda is twofold: to restore health in those who are ill and to maintain wellness in those who are healthy. -- Acharya Charaka</figcaption>
+          </figure>
           <div class="hero-actions">
             <a class="button primary" href="#journal">Reserve a consult</a>
           </div>
           <dl class="quick-stats" aria-label="Studio highlights">
-            <div>
-              <dt>18</dt>
-              <dd>years of practice</dd>
-            </div>
             <div>
               <dt>3</dt>
               <dd>dosha-led paths</dd>
@@ -53,30 +53,9 @@
             <span>Next openings</span>
             <strong>June 13-18</strong>
           </div>
-          <h2>Start with a 75-minute intake</h2>
+          <h2>Start with a 60-minute intake</h2>
           <form>
-            <label>
-              Care focus
-              <select>
-                <option>Digestion and energy</option>
-                <option>Stress and sleep</option>
-                <option>Skin and inflammation</option>
-                <option>Seasonal reset</option>
-              </select>
-            </label>
-            <label>
-              Preferred format
-              <select>
-                <option>Virtual consultation</option>
-              </select>
-            </label>
-            <div class="date-grid" aria-label="Available appointment times">
-              <button type="button" class="selected" aria-pressed="true">Sat<br><strong>9:30</strong></button>
-              <button type="button" aria-pressed="false">Mon<br><strong>2:00</strong></button>
-              <button type="button" aria-pressed="false">Wed<br><strong>11:15</strong></button>
-            </div>
-            <button class="button primary wide" type="button" id="holdButton">Hold appointment</button>
-            <p class="booking-note" aria-live="polite"></p>
+            <a class="button primary wide" href="#journal">Book Virtual Consultation</a>
           </form>
         </aside>
         <img class="hero-art" src="assets/hero-studio.svg" alt="Ayurvedic consultation studio table with herbs and oils">
@@ -108,31 +87,25 @@
         </div>
         <div class="service-list">
           <article>
-            <span>$185</span>
             <h3>Initial Ayurvedic Consultation</h3>
             <p>Full intake, prakriti/vikriti review, food map, herbs, and a 30-day care plan.</p>
           </article>
           <article>
-            <span>$72</span>
             <h3>Herbal Refill Session</h3>
             <p>Short check-in for current clients needing formula adjustments or restocking.</p>
           </article>
         </div>
       </section>
 
-      <section class="shop-section" id="shop">
-        <div class="shop-copy">
-          <p class="eyebrow">Apothecary</p>
-          <h2>Small-batch support between visits</h2>
-          <p>Retail items are organized by outcome, not trend: agni, calm, movement, radiance, immunity, and seasonal transitions.</p>
-          <div class="product-tags">
-            <span>Herbal ghee</span>
-            <span>Nasya oil</span>
-            <span>Digestive tea</span>
-            <span>Triphala blends</span>
-          </div>
+      <section class="about-section" id="about">
+        <div>
+          <p class="eyebrow">About us</p>
         </div>
-        <img src="assets/product-line.svg" alt="Ayurvedic product line with oils, jars, and herbal tins">
+        <div class="about-copy">
+          <p>Kavitha S. Ram is a certified Ayurvedic Practitioner with five years of dedicated practice in holistic wellness. Bridging the gap between analytical precision and traditional wisdom, Kavitha brings a unique perspective to her consultations, rooted in her prior professional tenure in the IT and engineering sectors.</p>
+          <p>Her journey into Ayurveda was born from a deep-seated commitment to healthy living and a pursuit of time-tested, science-based ancient knowledge. Kavitha's practice is built on a foundation of rigorous training from the Kerala Ayurveda Academy in Milpitas, CA. Further enhancing her ability to interpret classical texts, she is proficient in reading, writing, and speaking Sanskrit.</p>
+          <p>This multi-disciplinary background allows Kavitha to provide comprehensive, individualized coaching on diet and lifestyle, as well as recommendations for Ayurvedic formulations that comply with US standards. Kavitha is dedicated to helping clients integrate these ancient principles into the complexities of modern life.</p>
+        </div>
       </section>
 
       <section class="journal-section" id="journal">
@@ -203,6 +176,20 @@
         </div>
       </section>
 
+      <section class="questionnaire-section" aria-labelledby="questionnaire-title">
+        <div>
+          <p class="eyebrow">Before your visit</p>
+          <h2 id="questionnaire-title">Fill up this health seeker questionnaire</h2>
+        </div>
+        <a class="document-card" href="assets/ayurshakti-health-seeker-form-2025.docx" download>
+          <span class="document-icon" aria-hidden="true">DOC</span>
+          <span>
+            <strong>Ayurshakti Health Seeker Form 2025</strong>
+            <small>Open or download the questionnaire document</small>
+          </span>
+        </a>
+      </section>
+
       <section class="contact-section" id="contact">
         <div>
           <p class="eyebrow">Contact us</p>
@@ -224,6 +211,10 @@
           </label>
           <button class="button primary" type="button">Send contact request</button>
         </form>
+      </section>
+
+      <section class="disclaimer-section" aria-label="Disclaimer">
+        <p><strong>Disclaimer:</strong> The information provided on this website and during consultations is for educational and wellness purposes only. Kavitha S. Ram is not a medical doctor. Ayurvedic services are not intended to substitute for professional medical advice, diagnosis, or treatment. We do not guarantee the cure of any illness. Please consult your primary healthcare provider regarding any health concerns or before making changes to your medical regimen.</p>
       </section>
     </main>
     <script src="script.js"></script>
